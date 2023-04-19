@@ -1,5 +1,5 @@
 {
-  "name": "@soruly/opencv4nodejs-prebuilt",
+  "name": "@lesliewong007/opencv4nodejs-prebuilt",
   "version": "6.0.2",
   "description": "Asynchronous OpenCV 4.x nodejs bindings with JavaScript and TypeScript API.",
   "keywords": [
@@ -16,16 +16,16 @@
     "async",
     "typescript"
   ],
-  "author": "soruly",
+  "author": "Leslie Wong",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/soruly/opencv4nodejs"
+    "url": "git+https://github.com/Leslie-Wong-H/opencv4nodejs"
   },
   "bugs": {
-    "url": "https://github.com/soruly/opencv4nodejs/issues"
+    "url": "https://github.com/Leslie-Wong-H/opencv4nodejs/issues"
   },
-  "homepage": "https://github.com/soruly/opencv4nodejs#readme",
+  "homepage": "https://github.com/Leslie-Wong-H/opencv4nodejs#readme",
   "main": "./lib/opencv4nodejs.js",
   "typings": "./lib/index.d.ts",
   "scripts": {
