@@ -28,7 +28,7 @@ jobs:
         run: npm ci --unsafe-perm
       - name: Publish prebuild
         shell: bash
-        run: npm run prebuild -- -t ${{matrix.target}} -r ${{matrix.runtime}} --include-regex "\.(node|a|so|dylib|lib|dll).*$" -u ${{ secrets.GITHUB_TOKEN }}
+        run: npm run prebuild -- -t ${{matrix.target}} -r ${{matrix.runtime}} --include-regex "\.(node|a|so|dylib|lib|dll).*$" -u ${{ secrets.GH_TOKEN }}
 
   deploy:
     needs:
