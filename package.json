@@ -54,6 +54,12 @@
     "opencv": "4.1.1-7"
   },
   "devDependencies": {
-    "prebuild": "^11.0.4"
-  }
+    "prebuild": "^11.0.4",
+    "node-gyp": "8.4.1"
+  },
+  "overrides": {
+    "prebuild": {
+      "node-gyp": "$node-gyp"
+    }
+  }  
 }
