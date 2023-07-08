@@ -1,0 +1,3 @@
+{
+  "include-regex": ".(node|a|so|dylib|lib|dll).*$"
+}
